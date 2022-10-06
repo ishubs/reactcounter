@@ -1,0 +1,28 @@
+#CounterModal{
+    backdrop-filter: blur(10px);
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(0, 0, 0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#modal-content{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    padding: 5rem;
+    border-radius: 10px;
+    position: relative;
+}
+
+.closeBtn{
+    position: absolute;
+
+}

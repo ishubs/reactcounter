@@ -1,0 +1,14 @@
+button{
+    background-color: #4267B2;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    font-family: inherit;
+    padding: 0.5rem;
+    border-radius: 3px;
+    color: white;
+    &:hover{
+        cursor: pointer;
+        background-color: #223f7a;
+    }
+}
